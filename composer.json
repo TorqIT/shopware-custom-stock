@@ -1,0 +1,27 @@
+{
+    "name": "torq/customstock",
+    "description": "torq/customstock",
+    "type": "shopware-platform-plugin",
+    "version": "0.1.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Torq\\Shopware\\CustomStock\\TorqCustomStock",
+        "label": {
+            "de-DE": "Torq Custom Stock",
+            "en-GB": "Torq Custom Stock"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Torq\\Shopware\\CustomStock\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Torq\\Shopware\\CustomStock\\Tests\\": "tests/"
+        }
+    }
+}
